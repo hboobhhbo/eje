@@ -1,0 +1,8 @@
+nombre = input ("Cuál es tu nombre ")
+numero = int(input("Escribe tu edad "))
+if numero >= 18:
+    print (nombre + " puedes entrar a ver la película")
+else:
+    print (nombre + " no tienes la edad suficiente para ver la película ")
+if numero >= 30:
+    print (" ya eres muy viejo")
